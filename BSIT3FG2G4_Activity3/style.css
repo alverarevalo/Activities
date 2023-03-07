@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.create, .delete {
+    display: flex;
+    width: fit-content;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
