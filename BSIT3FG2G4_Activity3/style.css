@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 
-.container {
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
+
 
 .create, .delete {
     display: flex;
@@ -19,5 +20,15 @@
 .buttons {
     display: flex;
     gap: 1rem;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
