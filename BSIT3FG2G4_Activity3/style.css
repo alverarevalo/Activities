@@ -4,48 +4,12 @@
     font-size: 12pt;
 }
 
-.container {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-}
-
-.buttons {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center ;
-}
-
-button {
-    background: khaki;
-    border: none;
-    height: 30px;
-    width: 100px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#search, input[type="text"], select {
-    width: 250px;
-    height: 30px;
-    border-radius: 5px;
-    border: solid 1px darkgrey;
-}
-
-a {
-    display: flex;
-    background: khaki;
-    border: none;
-    height: 30px;
-    width: 100px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-    align-items: center;
-    justify-content: center;
 }
 
 .create, .delete {
@@ -60,6 +24,16 @@ a {
     border-radius: 10px;
     width: 70%;
     background-color: khaki;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
 .row:nth-of-type(even) {

@@ -8,7 +8,11 @@
         <title>IT 310 ACTIVITY 3 XML WITH CRUD USING DOM PHP</title>
     </head>
     <body>
+
+        
+
         <div class="container">
+
             <div class="buttons">
                 <a href="create.php">Add</a>
                 <a href="update.php">Edit</a>
@@ -45,7 +49,5 @@
 
             
         ?>
-        </div>
     </body>
     </html>
-
