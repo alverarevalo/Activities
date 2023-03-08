@@ -9,13 +9,13 @@
     </head>
     <body>
         <div class="container">
-            <button><a href="create.html">Add</a></button>
-            <button><a href="update.html">Edit</a></button>
-            <button><a href="delete.html">Delete</a></button>
-            <form action="">
-                <button type="submit" name="search">Search</button>
+            <div class="buttons">
+                <a href="create.php">Add</a>
+                <a href="update.php">Edit</a>
+                <a href="delete.php">Delete</a>
+                <button type="submit" name="search" id="searchbtn">Search</button>
                 <input id="search" name="search" type="text">
-            </form>
+            </div>
             
         <?php 
             $xml = new domdocument("1.0");
@@ -31,12 +31,19 @@
             $category = $AI->getElementsByTagName("Category")->item(0)->nodeValue;
             $subscriptionType = $AI->getElementsByTagName("SubscriptionType")->item(0)->nodeValue;
             
-            echo "Tool Name: $toolName<br>";
-            echo "Developer: $developer<br>";
-            echo "Release Date: $releaseDate<br>";
-            echo "Category: $category<br>";
-            echo "Subscription Type: $subscriptionType<br><br>";
+
+            echo '
+                <div class="row">
+                    Tool Name: ' . $toolName . '
+                    Developer: ' . $developer . ' 
+                    Release Date: ' . $releaseDate . '
+                    Category: ' . $category . '
+                    Subscription Type: ' . $subscriptionType . '
+                </div>
+            ';
             }
+
+            
         ?>
         </div>
     </body>

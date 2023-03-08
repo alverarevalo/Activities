@@ -38,7 +38,7 @@
 
             <div class="buttons">
                 <button name="submit" type="submit">Update</button>
-                <button><a href="index.html">Back</a></button>
+                <button><a href="index.php">Back</a></button>
             </div>
 
         </form>

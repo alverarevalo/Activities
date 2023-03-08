@@ -18,7 +18,7 @@
             </select>
 
             <div class="buttons">
-                <button><a href="index.html">Back</a></button>
+                <button><a href="index.php">Back</a></button>
                 <button name="delete" type="submit">Delete</button>
             </div>
             
