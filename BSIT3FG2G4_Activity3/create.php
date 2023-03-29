@@ -4,31 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.CSS">
     <title>Create Page</title>
 </head>
 <body>
    
-    <form class="create" action="">
+    <form class="create"  method = "post" action="loadCreate.php">
         <div class="field">
             <label>AI Tool:</label>
-            <input name="AI Tool" type="text">
+            <input name="AITool" id="AITool" type="text" required>
         </div>
         <div class="field">
             <label>Developer:</label>
-            <input name="Developer" type="text">
+            <input name="Developer" id="Developer" type="text" required>
         </div>
         <div class="field">
-            <label for="Release Date">Release Date:</label>
-            <input name="Release Date" type="text">
+            <label for="ReleaseDate">Release Date:</label>
+            <input name="ReleaseDate" id="ReleaseDate" type="text" required>
         </div>
         <div class="field">
             <label for="Category">Category:</label>
-            <input name="Category" type="text">
+            <input name="Category" id="Category" type="text" required>
         </div>
         <div class="field">
-            <label for="Subscription Type">Subscription Type:</label>
-            <input name="Subscription Type" type="text">
+            <label for="SubscriptionType">Subscription Type:</label>
+            <select name="SubscriptionType" id="SubscriptionType" required> 
+                    <option selected disabled>Select</option>
+                    <option value="Free">Free</option>
+                    <option value="Paid">Paid</option>
+                    <option value="Free and Paid">Free and Paid</option>
+                </select>
         </div>
         
         <div class="buttons">

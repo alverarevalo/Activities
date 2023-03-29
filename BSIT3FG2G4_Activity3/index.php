@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.CSS">
         <title>IT 310 ACTIVITY 3 XML WITH CRUD USING DOM PHP</title>
     </head>
     <body>
@@ -14,12 +14,17 @@
         <div class="container">
 
             <div class="buttons">
+                
                 <a href="create.php">Add</a>
-                <a href="update.php">Edit</a>
+                <a href="update.php">Update</a>
                 <a href="delete.php">Delete</a>
-                <button type="submit" name="search" id="searchbtn">Search</button>
-                <input id="search" name="search" type="text">
+
             </div>
+
+            <form class="searchbox" method="post" action="loadSearch.php">
+                <button type="submit" name="search" id="search">Search</button>
+                <input id="search" name="search" type="text">
+            </form>
             
         <?php 
             $xml = new domdocument("1.0");
