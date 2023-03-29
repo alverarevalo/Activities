@@ -1,0 +1,77 @@
+* {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 20px;
+}
+
+title {
+	color: Gold;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+AI {
+	align-items: flex-start;
+	width: 50%;
+	border: 5px solid;
+	border-radius: 30px;
+	padding: 10px 50px;
+	margin-bottom: 10px;
+	gap: 10px;
+}
+
+AI:nth-of-type(even) {
+	border-color: royalblue;
+	background-color: lightblue;
+}
+
+AI:nth-of-type(odd) {
+	border-color: lightblue ;
+	background-color: royalblue;
+}
+
+ToolName{
+	font-style: italic;
+	align-self: center;
+	color: white;
+}
+
+ToolName, Developer, SubscriptionType, Category, ReleaseDate {
+	flex-direction:row;
+}
+
+
+ToolName::before {
+	content: "ToolName:";
+	margin-right: 5px;
+}
+
+Developer::before {
+	content: "Developer:";
+	margin-right: 5px;
+}
+
+ReleaseDate::before {
+	content: "ReleaseDate:";
+	margin-right: 5px;
+}
+
+Category::before {
+	content: "Category:";
+	margin-right: 5px;
+}
+
+SubscriptionType::before {
+	content: "SubscriptionType:";
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+

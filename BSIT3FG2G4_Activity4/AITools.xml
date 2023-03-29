@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AIs>
-	<title>Useful AI sites</title>
-	<AI>
-		<ToolName>Magic Eraser</ToolName>
-		<Developer>Google</Developer>
-		<ReleaseDate>October 28, 2021</ReleaseDate>
-		<Category>Multimedia</Category>
-		<SubscriptionType>Free and Paid</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>Thing Translator</ToolName>
-		<Developer>Google</Developer>
-		<ReleaseDate>November 15, 2016</ReleaseDate>
-		<Category>Translator</Category>
-		<SubscriptionType>Free</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>Quillbot AI</ToolName>
-		<Developer>Rohan Gupta</Developer>
-		<ReleaseDate>2017</ReleaseDate>
-		<Category>Writing</Category>
-		<SubscriptionType>Free and Paid</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>NightCafe</ToolName>
-		<Developer>Eray Eliacik</Developer>
-		<ReleaseDate>November 2022</ReleaseDate>
-		<Category>Art</Category>
-		<SubscriptionType>Free</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>Boomy</ToolName>
-		<Developer>Boomy Corporation</Developer>
-		<ReleaseDate>2018</ReleaseDate>
-		<Category>Music</Category>
-		<SubscriptionType>Free and Paid</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>Replika</ToolName>
-		<Developer>Eugenia Kuyda</Developer>
-		<ReleaseDate>2017</ReleaseDate>
-		<Category>Chatbot</Category>
-		<SubscriptionType>Free</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>Dall-E 2</ToolName>
-		<Developer>OpenAI</Developer>
-		<ReleaseDate>September 2022</ReleaseDate>
-		<Category>Art</Category>
-		<SubscriptionType>Paid</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>MightyGPT</ToolName>
-		<Developer>OpenAI</Developer>
-		<ReleaseDate>2022</ReleaseDate>
-		<Category>Chatbot</Category>
-		<SubscriptionType>Paid</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>Remove BG</ToolName>
-		<Developer>Kaleido</Developer>
-		<ReleaseDate>April 8, 2018</ReleaseDate>
-		<Category>Multimedia</Category>
-		<SubscriptionType>Free</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>Fake You</ToolName>
-		<Developer>Echelon</Developer>
-		<ReleaseDate>2023</ReleaseDate>
-		<Category>Speech</Category>
-		<SubscriptionType>Free and Paid</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>Resemble AI</ToolName>
-		<Developer>Zohaib Ahmed</Developer>
-		<ReleaseDate>2018</ReleaseDate>
-		<Category>Speech</Category>
-		<SubscriptionType>Free</SubscriptionType>
-	</AI>
-	<AI>
-		<ToolName>Talk to books</ToolName>
-		<Developer>Google</Developer>
-		<ReleaseDate>September 2018</ReleaseDate>
-		<Category>Books</Category>
-		<SubscriptionType>Free</SubscriptionType>
-	</AI>
-		
+  <title>Useful AI sites</title>
+  <AI>
+    <ToolName>Magic Eraser</ToolName>
+    <Developer>Google</Developer>
+    <ReleaseDate>October 28, 2021</ReleaseDate>
+    <Category>Multimedia</Category>
+    <SubscriptionType>Free and Paid</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>Thing Translator</ToolName>
+    <Developer>Google</Developer>
+    <ReleaseDate>November 15, 2016</ReleaseDate>
+    <Category>Translator</Category>
+    <SubscriptionType>Free</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>Quillbot AI</ToolName>
+    <Developer>Rohan Gupta</Developer>
+    <ReleaseDate>2017</ReleaseDate>
+    <Category>Writing</Category>
+    <SubscriptionType>Free and Paid</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>NightCafe</ToolName>
+    <Developer>Eray Eliacik</Developer>
+    <ReleaseDate>November 2022</ReleaseDate>
+    <Category>Art</Category>
+    <SubscriptionType>Free</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>Boomy</ToolName>
+    <Developer>Boomy Corporation</Developer>
+    <ReleaseDate>2018</ReleaseDate>
+    <Category>Music</Category>
+    <SubscriptionType>Free and Paid</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>Replika</ToolName>
+    <Developer>Eugenia Kuyda</Developer>
+    <ReleaseDate>2017</ReleaseDate>
+    <Category>Chatbot</Category>
+    <SubscriptionType>Free</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>Dall-E 2</ToolName>
+    <Developer>OpenAI</Developer>
+    <ReleaseDate>September 2022</ReleaseDate>
+    <Category>Art</Category>
+    <SubscriptionType>Paid</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>MightyGPT</ToolName>
+    <Developer>OpenAI</Developer>
+    <ReleaseDate>2022</ReleaseDate>
+    <Category>Chatbot</Category>
+    <SubscriptionType>Paid</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>Remove BG</ToolName>
+    <Developer>Kaleido</Developer>
+    <ReleaseDate>April 8, 2018</ReleaseDate>
+    <Category>Multimedia</Category>
+    <SubscriptionType>Free</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>Fake You</ToolName>
+    <Developer>Echelon</Developer>
+    <ReleaseDate>2023</ReleaseDate>
+    <Category>Speech</Category>
+    <SubscriptionType>Free and Paid</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>Resemble AI</ToolName>
+    <Developer>Zohaib Ahmed</Developer>
+    <ReleaseDate>2018</ReleaseDate>
+    <Category>Speech</Category>
+    <SubscriptionType>Free</SubscriptionType>
+  </AI>
+  <AI>
+    <ToolName>Talk to books</ToolName>
+    <Developer>Google</Developer>
+    <ReleaseDate>September 2018</ReleaseDate>
+    <Category>Books</Category>
+    <SubscriptionType>Free</SubscriptionType>
+  </AI>
+  
 </AIs>
