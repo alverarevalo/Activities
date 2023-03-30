@@ -2,6 +2,7 @@
     font-family:Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     font-size: 12pt;
+    color: #ffffff;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     gap: 1rem;
     width: 50%;
     margin: 1em auto;
+    background: #2d3250;
 }
 
 .create, .delete {
@@ -31,15 +33,16 @@ body {
 
 .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 1em;
     padding: 1rem;
     border-radius: 10px;
-    background-color: khaki;
+    background-color: #424769;
     margin-bottom: 1em;
 }
 
 .row:nth-of-type(even) {
-    background-color: darkgoldenrod;
+    background-color: #676f9d;
 }
 
 .buttons {
@@ -51,7 +54,8 @@ body {
 }
 
 button {
-    background: khaki;
+    background: #f9b17a;
+    color: #2d3250;
     border: none;
     height: 30px;
     width: 100px;
@@ -64,17 +68,18 @@ button {
     height: 30px;
     border-radius: 5px;
     border: solid 1px darkgrey;
+    color: #2d3250;
 }
 
 a {
     display: flex;
-    background: khaki;
+    background: #f9b17a;
+    color: #2d3250;
     border: none;
     height: 30px;
     width: 100px;
     border-radius: 5px;
     text-decoration: none;
-    color: black;
     align-items: center;
     justify-content: center;
 }

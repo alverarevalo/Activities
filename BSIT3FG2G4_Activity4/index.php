@@ -9,10 +9,6 @@
     </head>
     <body>
 
-        <div>
-            
-        </div>
-
         <div class="container">
 
             <div class="buttons">
@@ -45,11 +41,11 @@
 
             echo '
                 <div class="row">
-                    Tool Name: ' . $toolName . '
-                    Developer: ' . $developer . ' 
-                    Release Date: ' . $releaseDate . '
-                    Category: ' . $category . '
-                    Subscription Type: ' . $subscriptionType . '
+                    <div>Tool Name: ' . $toolName . '</div>
+                    <div>Developer: ' . $developer . ' </div>
+                    <div>Release Date: ' . $releaseDate . '</div>
+                    <div>Category: ' . $category . '</div>
+                    <div>Subscription Type: ' . $subscriptionType . '</div>   
                 </div>
             ';
             }
