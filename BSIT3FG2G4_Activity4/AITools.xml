@@ -6,7 +6,7 @@
     <Developer>Google</Developer>
     <ReleaseDate>October 28, 2021</ReleaseDate>
     <Category>Multimedia</Category>
-    <SubscriptionType>Free and Paid</SubscriptionType>
+    <SubscriptionType>Freemium</SubscriptionType>
   </AI>
   <AI>
     <ToolName>Thing Translator</ToolName>
@@ -20,7 +20,7 @@
     <Developer>Rohan Gupta</Developer>
     <ReleaseDate>2017</ReleaseDate>
     <Category>Writing</Category>
-    <SubscriptionType>Free and Paid</SubscriptionType>
+    <SubscriptionType>Freemium</SubscriptionType>
   </AI>
   <AI>
     <ToolName>NightCafe</ToolName>
@@ -34,7 +34,7 @@
     <Developer>Boomy Corporation</Developer>
     <ReleaseDate>2018</ReleaseDate>
     <Category>Music</Category>
-    <SubscriptionType>Free and Paid</SubscriptionType>
+    <SubscriptionType>Freemium</SubscriptionType>
   </AI>
   <AI>
     <ToolName>Replika</ToolName>
@@ -69,7 +69,7 @@
     <Developer>Echelon</Developer>
     <ReleaseDate>2023</ReleaseDate>
     <Category>Speech</Category>
-    <SubscriptionType>Free and Paid</SubscriptionType>
+    <SubscriptionType>Freemium</SubscriptionType>
   </AI>
   <AI>
     <ToolName>Resemble AI</ToolName>

@@ -20,8 +20,8 @@
             </div>
 
             <form class="searchbox" method="post" action="loadSearch.php">
-                <button type="submit" name="search" id="search">Search</button>
-                <input id="search" name="search" type="text">
+                <button type="submit" name="searchBtn" id="searchBtn" >Search</button>
+                <input id="search" name="search" type="text" onkeyup="showSearch(this.value)" placeholder="Search">
             </form>
             
         <?php 
@@ -53,4 +53,22 @@
             
         ?>
     </body>
+    <script>
+				function showSearch(search) {
+					if (search.length == 0) {
+						document.getElementById("search").innerHTML = "";
+					} 
+					else {
+						http = new XMLHttpRequest();
+						http.onreadystatechange = function() 
+						{
+							if (http.readyState == 4 && http.status == 200) {
+								document.getElementById("search").innerHTML = http.responseText;
+							}
+						};
+						http.open("GET", "loadAI.php?q=" + search, true);
+						http.send();
+					}
+				}
+		</script>
     </html>
